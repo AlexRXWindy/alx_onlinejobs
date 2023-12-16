@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap");
+/** General Selectors*/
+body {
+  width: 100%;
+  overflow: hidden;
+  font-family: "Oswald", sans-serif;
+}
+/** General Selectors*/
+
+/*? ID Selector */
+#JobsCounter {
+  position: absolute;
+  bottom: 20.0vh;
+  right: 0.7vh;
+}
+#playerscounter {
+  letter-spacing: 0px;
+}
+/*? ID Selectors */
+
+/*! Class Selectors */
+.textstat {
+  width: 2vh;
+  float: right;
+  text-align: right;
+  font-size: 1vh;
+  margin-top: -0.25vh;
+}
+.JobCounter {
+  background-color: rgba(0, 0, 0, 0.767);
+  box-shadow: 0 0 .1rem #fff,
+  0 0 0.1rem #fff,
+  0 0 0.2rem #fca504,
+  0 0 0.2rem #fca504,
+  0 0 0.2rem #fca504,
+  inset 0 0 0.3rem #fca504; 
+  color: white;
+  padding: 0.75vh;
+  text-align: center;
+  margin-top: 0.90vh;
+  border-radius: 5px;
+  font-size: 1.2vh;
+  letter-spacing: 8px;
+}
+.IdCounter {
+  background-color: rgba(0, 0, 0, 0.767);
+  color: white;
+  padding: 0.35vh;
+  box-shadow: 0 0 .1rem #fff,
+  0 0 0.1rem #fff,
+  0 0 0.2rem #fca504,
+  0 0 0.2rem #fca504,
+  0 0 0.2rem #fca504,
+  inset 0 0 0.3rem #fca504; 
+  text-align: center;
+  margin-top: 0.3vh;
+  border-radius: 5px;
+  font-size: 1vh;
+  letter-spacing: 8px;
+}
+.counter {
+  letter-spacing: 0px;
+}
+/*! Class Selectors */
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  font-family: "Do Hyeon", sans-serif;
+}
